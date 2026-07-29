@@ -88,6 +88,12 @@ h4 { font-size: 1.05rem; font-weight: 700; }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
 
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+/* ponte (silhueta prateada, fundo transparente) à esquerda do logotipo */
+.brand__bridge {
+  height: 30px; width: auto; flex: none;
+  opacity: .92;
+  filter: drop-shadow(0 0 6px rgba(96, 165, 250, .35));
+}
 /* o logo é azul-metálico escuro: um leve halo azul garante leitura sobre o fundo dark */
 .brand__logo {
   height: 34px; width: auto; flex: none;
